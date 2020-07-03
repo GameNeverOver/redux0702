@@ -1,0 +1,53 @@
+.App{
+  h2 {
+    text-align: center;
+  }
+  .input_btn{
+    text-align: center;
+  }
+  input{
+    margin-right: 20px;
+  }
+  .tabChange{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    span{
+      margin: 20px;
+      cursor: pointer;
+      color: #33f;
+    }
+    .tab_act{
+      color: #f0f;
+    }
+  }
+  li{
+    margin: 0 350px;
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    b{
+      width: 10%;
+    }
+    .delContent+span{
+      width: 50%;
+      font-size: 16px;
+    }
+    input{
+      width: 30%;
+    }
+    .delContent span{
+      display: inline-block;
+      border: 1px solid #000;
+      text-align: center;
+      width: 35%;
+      transform: scale(0.6);
+      cursor: pointer;
+    }
+    .act{
+      text-decoration: line-through;
+    }
+  }
+}
